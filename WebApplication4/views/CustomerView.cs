@@ -31,6 +31,8 @@ namespace WebApplication4.views
 
         public CustomerView(string id)
         {
+            ApiHelper.ApiKey = "0afmo2PA6zBBgDK7tKLb";
+            BaseURLHelper.BaseURL = "http://eval.espressologic.com/rest/ValsEval/nwnds/v1/";
             requestTemplate += "/" + id;
             Task<CustomerList> customerListTask = GetCustomerSummaryAsync();
             customerListTask.Wait();
