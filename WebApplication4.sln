@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication4", "WebApplication4\WebApplication4.csproj", "{E56B2F62-AA3F-4CA8-A7BC-9DCDF753E5B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{870487C6-BB07-4EEC-BEF6-72D9E8DB5F0E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4EDB9BF-EDF1-4121-9E91-BBD7BB7D4F47}"
+	ProjectSection(SolutionItems) = preProject
+		WebApplication4\Images\EspressoLogicLogo.png = WebApplication4\Images\EspressoLogicLogo.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E56B2F62-AA3F-4CA8-A7BC-9DCDF753E5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56B2F62-AA3F-4CA8-A7BC-9DCDF753E5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56B2F62-AA3F-4CA8-A7BC-9DCDF753E5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56B2F62-AA3F-4CA8-A7BC-9DCDF753E5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
